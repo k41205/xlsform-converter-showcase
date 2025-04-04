@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLSForm Converter Showcase</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" type="image/png" href="/public/images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><img class="header__img" src="public/images/logo.png" alt="logo"></h1>
+        </header>
+        <main>
+            <section class="demo">
+                <p class="demo__text">Check out the demo!</p>
+                <iframe class="demo__video" width="560" height="315" src="https://www.youtube.com/embed/GTFeTe5p-_w?si=JfdUqzCHMF9Zb8vk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+            <section>
+                <div class="section__container">
+                    <article>
+                        <img class="about-me__img" src="/public/images/me.jpeg" alt="picture of me">
+                        <p>Giacomo Cavarretta
+                        <br>
+                        Student ID 20104117</p>
+                    </article>
+                    <article>
+                        <h2>About Me</h2>
+                        <p>Hi there, hope you can enjoy this showcase of my final project! But first, some info about me.  I’m Italian, married with a lovely Spanish woman and living in Dublin since 2019. I’m currently working as a software engineer at Diona, the best company I could ever find!</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section--odd">
+                <div class="section__container">
+                    <article>
+                        <h2>The Project</h2>
+                        <p>It’s the final assignment due for my path undertaken for the Higher Diploma in Computer Science & Software Development, after 2 years of the course.</p>
+                    </article>
+                    <article>
+                        <img src="/public/images/setu-logo-dark 1.svg" alt="logo setu">
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article>
+                        <img src="/public/images/Diona logo.png" alt="logo setu">
+                    </article>
+                    <article>
+                        <p>I chose to realise it with my employer Diona because it benefits my studies and my work at the same time.</p>
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article>
+                        <p>Also, I had the opportunity to further my knowledge specific to their IT ecosystem, which helped me to better understand their solutions and provided them with more solid support during my daily work.</p>
+                    </article>
+                    <article>
+                        <img src="/public/images/diona architecture.png" alt="diona architecture">
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article class="article--fullbody">
+                        <p>More info about Setu course and Diona here:</p>
+                        <p><a href="https://www.setu.ie/courses/higher-diploma-in-computer-science-2-years-online">https://www.setu.ie/courses/higher-diploma-in-computer-science-2-years-online</a>
+                        <br>
+                        <a href="https://www.diona.com/">https://www.diona.com/</a></p>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <div class="section__container">
+                    <article>
+                        <img src="/public/images/app screenshot.png" alt="app screenshot 1">
+                    </article>
+                    <article>
+                        <h2>The Product</h2>
+                        <p>It’s a web app that takes an XLSForm as input and produces an XML-compliant file as output by writing the document either into the File System (1) or directly to the Database (2).</p>
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article>
+                        <p>The audience intended for this software is people in charge of creating XLSForm files (3).
+                            The app leverages the File System Access API to read/write local files in real-time. Whenever the “Convert to XML” button is clicked, a prompt feedback is given on the result of the conversion. In case of any error encountered (4), the user can quickly fix it in the file and click on the button again (5), without the need to upload it again, making the process smooth.</p>
+                    </article>
+                    <article>
+                        <img src="/public/images/app screenshot 2.png" alt="app screenshot 2">
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article class="article--fullbody">
+                        <p>The app’s core is Pyxform, a Python library that converts spreadsheets following the XLSForm standard into ODK XForms.</p>
+                        <p>If you’re interested, you can find more info here:</p>
+                        <p>Pyxform: <a href="https://github.com/XLSForm/pyxform">https://github.com/XLSForm/pyxform</a>
+                        <br>
+                        XLSForm: <a href="https://xlsform.org/en/#what-is-an-xlsform">https://xlsform.org/en/#what-is-an-xlsform</a>
+                        <br>
+                        XForm: <a href="https://xlsform.org/en/#what-is-an-xlsform">https://getodk.github.io/xforms-spec/</a></p>
+                        <p>You can find the source code of my app here:</p>
+                        <p><a href="https://github.com/k41205/xlsform-converter">https://github.com/k41205/xlsform-converter</a></p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section--odd">
+                <div class="section__container">
+                    <article>
+                        <h2>The Process</h2>
+                        <p>A simplified version of Scrum was adopted to manage the software development process effectively in a solo setup. I acted in both the developer and Scrum master roles, planning the work ahead. My head of the department was my Product Owner (PO), and the Chief Architect acted as a stakeholder/technical advisor.</p>
+                    </article>
+                    <article>
+                        <img src="/public/images/blog-scrum-process-opt 1.png" alt="scrum process">
+                    </article>
+                </div>
+
+                <div class="section__container">
+                    <article>
+                        <img src="/public/images/gantt chart.png" alt="gantt chart">
+                    </article>
+                    <article>
+                        <p>The project plan was spread into 12 weeks, with a 2-week length spring, having a total of 6 sprints. A Gantt chart has been designed to track the time spent on each main task.
+                            During this time, I had a review with the PO and the technical advisor about the work done at each end of the sprint.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer><p>© 2025 Giacomo Cavarretta</p></footer>
+    </div>
+</body>
+</html>
